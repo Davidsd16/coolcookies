@@ -1,20 +1,42 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    font-family:"Roboto";
     background-color: blanchedalmond;
 }
 
-.container_header{
+/* .webContainer {
     display: flex;
-    justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 100px;
-    }
-    .container_img {
-        display:flex;
-        justify-content: center;
-        width: auto;
-        height: 500px;
-    }
-    .blog_cookie {
-        display: flex;
-       margin: ;
-    }
+} */
+
+.container_header {
+    display: flex;
+    justify-content: center;
+}
+
+.container_img {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 500px;
+}
+
+.blog_cookie {
+    display: flex;
+    justify-content: center;
+}
+
+.cookie-description {
+    max-width: 350px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.presentation {
+     max-width: 1000px;
+    margin-left: 6%;
+}
+
+.artisan {
+    width: 70%;
+}
