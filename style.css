@@ -26,46 +26,117 @@ h1{
 
 .blog_cookie {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1800px;
 }
 
 .cookie-description {
     max-width: 350px;
-    margin-left: 30px;
-    margin-right: 30px;
     display:flex; 
     flex-direction: column;
 }
 
 .presentation {
-     max-width: 1000px;
+    max-width: 1000px;
     margin-left: 6%;
 }
 
 .artisan {
     width: 100%;
+    height: 240px;
 }
+
 .cookietypes {
     display:flex;
     margin: 20px;
     max-width: 1400px;
-
 }
+
 .cookietypes img{
     margin-right: 30px;
     width: 200px;
 }
+
 .img_conteiner{
-    width: 70%;
+    width: 100%;
 }
+
 .block_conteiner{
     display:flex;
     flex-direction: column;
     align-items: center;
 }
+
 button{
+    margin-top: 10px;
     padding: 10px;
-    width: 80px;
+    width: 100px;
     border: black 0.2px solid;
+    background-color: #B9AFC2;
     border-radius: 200px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+#which-cookie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3 {
+    color: #AA7A62;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 35px;
+    align-self: center;
+}
+
+img {
+    border-radius: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+li a{
+    text-decoration: none;
+}
+#team{
+    display: flex;
+    flex-direction: column;
+
+}
+#team div{
+    display: flex;
+    justify-content: space-around;
+}
+
+#team img {
+    width: 300px;
+}
+.team-member{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    font-size: 24px;
+    font-weight: 700;
 }
