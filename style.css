@@ -140,3 +140,21 @@ li a{
     font-size: 24px;
     font-weight: 700;
 }
+
+.description-container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.description-container:hover {
+    opacity: 0.6;
+}
+
