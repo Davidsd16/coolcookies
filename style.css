@@ -8,7 +8,10 @@ body{
 /* .webContainer {
     display: flex;
 } */
-
+h1{
+    font-size: 80px;
+    color: chocolate;
+}
 .container_header {
     display: flex;
     justify-content: center;
