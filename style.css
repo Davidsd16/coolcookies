@@ -1,3 +1,20 @@
 body {
     background-color: blanchedalmond;
 }
+
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 100px;
+    }
+    .container_img {
+        display:flex;
+        justify-content: center;
+        width: auto;
+        height: 500px;
+    }
+    .blog_cookie {
+        display: flex;
+       margin: ;
+    }
